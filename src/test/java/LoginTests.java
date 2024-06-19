@@ -10,7 +10,7 @@ public class LoginTests extends TestBase {
 
 
     click(By.cssSelector("[href='/login']"));
-    type(By.name("Email"), "testor@test.info");
+    type(By.name("Email"), "testor@test.info"); //  By.id(email)
     type(By.name("Password"), "Abc1234!");
     click(By.cssSelector(".login-button"));
 
